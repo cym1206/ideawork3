@@ -33,6 +33,7 @@ public class UserController {
         System.out.println("提交指定分支测试!!!");
         System.out.println("提交指定分支测试2!!!");
         System.out.println("提交指定分支测试3最后一次!!!");
+        System.out.println("分支提交可能出现冲突1");
         return users;
     }
 
