@@ -28,6 +28,7 @@ public class UserController {
     @ResponseBody
     public  List<User> queryUser(){
         List<User> users = userService.queryUser();
+        System.out.println("11111111");
         return users;
     }
 
